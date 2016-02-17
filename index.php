@@ -8,7 +8,7 @@ require("classes/view.php");
 require("classes/viewmodel.php");
 require("classes/loader.php");
 require("classes/load.php");
-
+require("config/constants.php");
 if(isset($_GET['q'])){ 
 	$q=$_GET['q'];
 	$q_arr=explode("/",$q);
